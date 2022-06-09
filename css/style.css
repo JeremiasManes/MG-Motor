@@ -144,8 +144,18 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.sectioncontacto div form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
     align-items: center;
+    row-gap: 10px;
+    position: relative;
+    margin-top: 1vh;
 }
 
 /* RESPONSIVE DESIGN- MEDIA QUERY- MOBILES LAST */
