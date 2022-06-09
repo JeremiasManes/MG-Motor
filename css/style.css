@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.grilla {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer"
+    ;
+}
+
+/* CLASES HEADER */
+.header {
+    grid-area: header;
+    background-image: url(../img/banner.jpg);
+}
+
+.header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.header nav div {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-left: 13vw;
+    padding-bottom: 1vh;
+}
+
+.header nav div a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    position: relative;
+    padding-left: 7vh;
+    padding-top: 0.7vh;
+}
+
+/* CLASES MAIN */
+.main {
+    grid-area: main;
+}
+
+/* CLASES FOOTER */
+.footer {
+    grid-area: footer;
+    background-image: url(../img/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    padding: 5px;
+}
+
+.footer section div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    transform: translateX(-8vw);
+    padding-top: 1vh;
+}
+
+.subtituladofooter {
+    text-decoration: underline;
+}
+
+/* CLASES MEDIOS DE PAGO */
+.ala {
+    height: 66vh;
+}
+
+.sectionmediosdepago {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: 22vh;
+}
+
+.sectionmediosdepago div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionmediosdepago div ul {
+    transform: translateX(2vw);
+}
+
+.formasdepago {
+    list-style: none;
+    text-decoration: underline;
+    font-size: large;
+}
+
+.titulopagos {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 4vh;
+}
+
+/* RESPONSIVE DESIGN- MEDIA QUERY- MOBILES LAST */
+
+@media (max-width: 375px) {
+
+    /* CLASES HEADER */
+    .logo {
+        transform: translateY(-5vh);
+    }
+
+    .header nav div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 1vh;
+    }
+
+    /* CLASES MAIN */
+    .ala {
+        background-image: url(../img/fondomobile.jpg);
+    }
+
+    .titulopagos {
+        font-size: small;
+    }
+
+    .sectionmediosdepago {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 3vh;
+    }
+
+    .sectionmediosdepago div img {
+        display: none;
+    }
+
+
+    /* CLASES FOOTER */
+    .footer section div {
+        padding-top: 2vh;
+        transform: translateX(1vw)
+    }
+
+}
