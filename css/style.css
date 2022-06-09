@@ -138,6 +138,16 @@
     padding-top: 4vh;
 }
 
+/* CLASES CONTACTO */
+.sectioncontacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /* RESPONSIVE DESIGN- MEDIA QUERY- MOBILES LAST */
 
 @media (max-width: 375px) {
