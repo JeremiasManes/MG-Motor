@@ -145,6 +145,7 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
+    background-image: linear-gradient(to right, red, white, black);
 }
 
 .sectioncontacto div form {
