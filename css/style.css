@@ -176,6 +176,9 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.1rem;
 }
+.infocontacto img{
+    transform: skew(3deg,2deg);
+}
 
 /* RESPONSIVE DESIGN- MEDIA QUERY- MOBILES LAST */
 
