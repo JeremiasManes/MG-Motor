@@ -146,6 +146,7 @@
     align-content: center;
     justify-content: space-evenly;
     background-image: linear-gradient(to right, red, white, black);
+    height: 72vh;
 }
 
 .sectioncontacto div form {
@@ -155,9 +156,9 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    row-gap: 10px;
+    row-gap: 1.5vh;
     position: relative;
-    margin-top: 1vh;
+    margin-top: 2vh;
 }
 
 .infocontacto {
@@ -167,7 +168,7 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    row-gap: 3vh;
+    row-gap: 5vh;
 }
 
 .infocontacto p {
