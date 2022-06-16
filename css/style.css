@@ -49,6 +49,7 @@
 }
 
 .logo {
+    padding: 0.3rem;
     animation: 3s rotate linear infinite;
 }
 
@@ -167,7 +168,7 @@
     align-items: center;
     row-gap: 1.5vh;
     position: relative;
-    margin-top: 2vh;
+    margin-top: 1vh;
 }
 
 .buttonform {
